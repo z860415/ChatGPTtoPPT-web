@@ -1,4 +1,5 @@
 <template>
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <div class="container">
     <h1 class="title">AI 教材生成器</h1>
     <div class="form">
