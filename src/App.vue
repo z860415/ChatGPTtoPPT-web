@@ -32,7 +32,7 @@ export default defineComponent({
       this.isLoading = true;
       this.loadingText = '檔案生成中...';
       try {
-        const response = await axios.post('http://localhost:8086/get_ppt/get_ppt_file', {
+        const response = await axios.post('http://139.162.85.24:8086/get_ppt/get_ppt_file', {
           title: this.inputValue,
         }, {
           responseType: 'blob',
